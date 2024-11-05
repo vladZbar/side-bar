@@ -1,2 +1,2 @@
 # side-bar
-Макет 2 в кату
+страница - https://vladzbar.github.io/side-bar/
