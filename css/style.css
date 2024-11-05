@@ -1,0 +1,151 @@
+.side-bar {
+  width: 320px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  box-shadow: 5px 0 30px 0 #1b1c215f;
+}
+
+.side-header {
+  height: 88px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.side-header__item {
+  width: 40px;
+  height: 40px;
+  background-color: #FF3E79;
+  border-radius: 50%;
+  margin: 0px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.side-header__item:hover {
+  opacity: 0.5;
+  scale: 0.97;
+}
+
+.side-header__logo {
+  margin-right: auto;
+  transition: 0.3s;
+}
+
+.side-header__logo:hover {
+  opacity: 0.7;
+  scale: 0.97;
+}
+
+.side-navigation {
+  display: flex;
+  flex-direction: column;
+}
+
+.side-navigation__item {
+  margin-top: 32px;
+  margin-left: 24px;
+  font-family: 'TT lakes';
+  font-size: 16px;
+  /* line-height: 24px; */
+  color:#1B1C21;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+.side-navigation__item:hover {
+  color:#7E7E82;
+}
+/* .side-navigation__item:hover::before {
+  content: "";
+  display: inline-block;
+  height: 32px;
+  width: 4px;
+  background-color:#41F6D7;
+  position: absolute;
+  left: 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  margin-top: -8px;
+} */
+
+.side-navigation__item:focus {
+  color:#7E7E82;
+}
+
+.side-navigation__item:focus::before {
+  content: "";
+  display: inline-block;
+  height: 32px;
+  width: 4px;
+  background-color:#41F6D7;
+  position: absolute;
+  left: 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  margin-top: -8px;
+}
+
+.side-footer {
+  position: absolute;
+  bottom: 0;
+  margin-left: 16px;
+}
+
+.bottom-icons {
+  display: flex;
+}
+
+.bottom-icons__item {
+  width: 40px;
+  height: 40px;
+  background-color: #FF3E79;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 16px;
+  transition: 0.3s;
+}
+
+.bottom-icons__item:hover {
+  opacity: 0.7;
+  scale: 0.95;
+}
+
+.side-footer__mail {
+  display: block;
+  margin-top: 16px;
+  font-family: 'TT lakes';
+  color: #1B1C21;
+}
+
+.side-footer__phone {
+  display: block;
+  margin-top: 12px;
+  font-family: 'TT lakes';
+  color: #1B1C21;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.length-switch__item {
+  display: inline-block;
+  margin-bottom: 32px;
+  font-family: 'TT lakes';
+  color: #1B1C21;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+.length-switch__item:hover {
+  color: #7E7E82;
+}
+.length-switch__item:focus {
+  color: #7E7E82;
+}
