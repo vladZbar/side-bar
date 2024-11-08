@@ -1,5 +1,6 @@
 .side-bar {
   width: 320px;
+  min-height: 680px;
   position: absolute;
   top: 0;
   left: 0;
